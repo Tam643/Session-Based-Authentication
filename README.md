@@ -1,6 +1,6 @@
 # Session-Based Authentication
 
-This is a solution to the [QR Code Component on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This project was created based on my knowledge and understanding. The purpose is to develop myself. If there are suggestions or mistakes. Please don't hesitate to text me. Thank you for watching 🙏
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site at Vercel](https://qr-code-component-f22bx2oqb-correlucas.vercel.app/)
+- Live Site URL: In Process
 
 ## My process
 
