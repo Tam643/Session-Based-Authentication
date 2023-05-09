@@ -1,0 +1,17 @@
+<%- include('./partials/head'); %>
+
+<!-- Index Content Start -->
+<div class="card-body">
+  <h2 class="text-center">
+    Wellcome  <%- (!username) ? "" : " : "+username ; %>
+  </h2>
+  
+  <br />
+  <a class="d-block mb-2" href="/auth/delete" role="button">Delete account</a>
+  <button type="submit" form="signinForm" class="btn btn-danger btn-block">
+    Sign out
+  </button>
+  <form action="/auth/signout" id="signinForm" method="get"></form>
+</div>
+<!-- Index Content End -->
+<%- include('./partials/footer'); %>

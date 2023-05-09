@@ -1,0 +1,46 @@
+<%- include('./partials/head'); %>
+
+<!-- Sign Up Content Start -->
+<div class="card-body">
+  <h2 class="text-center">
+    Sign Up
+  </h2>
+  <label for="inputUsername" class="form-label">Username *</label>
+  <input
+    type="text"
+    form="signupForm"
+    id="inputUsername"
+    name="inp_username"
+    required
+    class="form-control"
+    aria-labelledby="usernameHelpBlock"
+  />
+  <label for="Password" class="form-label">Password *</label>
+  <input
+    type="password"
+    form="signupForm"
+    id="Password"
+    name="inp_password"
+    required
+    class="form-control"
+    aria-labelledby="passwordHelpBlock"
+  />
+  <label for="confirmPassword" class="form-label">Confirm Password *</label>
+  <input
+    type="password"
+    form="signupForm"
+    id="confirmPassword"
+    name="td_confirmpassword"
+    required
+    class="form-control"
+    aria-labelledby="passwordHelpBlock"
+  />
+  <br />
+  <a class="d-block mb-2" href="/signin/" role="button">If you have a account</a>
+  <button type="submit" form="signupForm" class="btn btn-primary btn-block">
+    Sign Up
+  </button>
+  <form action="/auth/signup" id="signupForm" method="post"></form>
+</div>
+<!-- Sign Up Content End -->
+<%- include('./partials/footer'); %>

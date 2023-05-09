@@ -1,0 +1,38 @@
+<%- include('./partials/head'); %>
+
+
+<!-- Sign in Content Start -->
+<div class="card-body">
+  <h2 class="text-center">
+    Session Based <br />
+    Authentication
+  </h2>
+  <label for="inputUsername" class="form-label">Username</label>
+  <input
+    type="text"
+    form="signinForm"
+    id="inputUsername"
+    name="inp_username"
+    required
+    class="form-control"
+    aria-labelledby="usernameHelpBlock"
+  />
+  <label for="inputPassword5" class="form-label">Password</label>
+  <input
+    type="password"
+    form="signinForm"
+    id="inputPassword5"
+    name="inp_password"
+    required
+    class="form-control"
+    aria-labelledby="passwordHelpBlock"
+  />
+  <br />
+  <a class="d-block mb-2" href="/signup/" role="button">If you don't have a account</a>
+  <button type="submit" form="signinForm" class="btn btn-primary btn-block">
+    Sign In
+  </button>
+  <form action="/auth/signin" id="signinForm" method="post"></form>
+</div>
+<!-- Sign in Content End -->
+<%- include('./partials/footer'); %>
